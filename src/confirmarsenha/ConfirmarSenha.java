@@ -24,6 +24,14 @@ public class ConfirmarSenha {
         System.out.println("Repita a senha:");
         u.confirmarSenha = sc.nextLine();
         
+        
+        if(u.email == u.confirmarSenha){
+        
+            System.out.println("Senha correta");
+        }else{
+            System.out.println("senha incorreta tente novamente");
+        }
+        
        
        
        boolean b;
